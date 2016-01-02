@@ -1,0 +1,9 @@
+/* Master style-sheet */
+
+body {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Ajout d'une marge pour les boutons dans la nav en mode mobile.
+Résout le problème de boutons collés à gauche inhérents à bootstrap. */
+.mobile-margin-btn { margin-left: 12px; }
