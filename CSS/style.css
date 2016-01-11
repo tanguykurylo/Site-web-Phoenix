@@ -1,0 +1,207 @@
+/* Master style-sheet */
+
+body {
+  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, .navbar, .parallax, .footer{
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, .navbar{
+text-transform: uppercase;
+}
+h1, h2 {
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  border-bottom: 4px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-style: solid;
+}
+
+h3 {
+  border-bottom: 1px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-style: dashed;
+}
+/* Ajout d'une marge pour les boutons dans la nav en mode mobile.
+Résout le problème de boutons collés à gauche inhérents à bootstrap. */
+.mobile-margin-btn { margin-left: 12px; }
+
+/* Ajout d'une marge pour le contenu en haut de page.
+Résout le problème d'overlap de navbar inhérent à Bootstrap. */
+body {  margin-top: 50px; }
+
+/* Ajout d'une marge pour les boutons dans la nav à droite.
+Résout le problème de boutons collés à droite inhérents à bootstrap. */
+.navbar-right { margin-right: 6px; }
+
+/* navbar */
+.navbar-inverse { background-color: #99031C}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #A8031F}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #BE0423}
+.dropdown-menu { background-color: #99031C}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #BE0423}
+.navbar-inverse { background-image: none; }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
+.navbar-inverse { border-color: #6E0000}
+.navbar-inverse .navbar-brand { color: #FFFFFF}
+.navbar-inverse .navbar-brand:hover { color: #FFFFFF}
+.navbar-inverse .navbar-nav>li>a { color: #E0DEDE}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF}
+.dropdown-menu>li>a { color: #E0DEDE}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
+
+.navbar .navbar-header { margin-left: 25px; }
+
+
+/* Effet de scroll parallax */
+
+.parallax {
+  height: 100vh;
+
+  background-image: url("../images/photogrp-compressed.jpg");
+  background-position: 50% 50px;
+
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  position: relative;
+  padding-top: 25vh;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: -50px;
+}
+
+.parallax h1 {
+	font-size: 85px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.parallax p {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+@media(max-width:500px){
+  .parallax h1 {
+  	font-size: 50px;
+  	font-weight: bold;
+  	margin-bottom: 10px;
+  }
+
+  .parallax p {
+  	font-size: 20px;
+  	font-weight: 400;
+  }
+}
+
+.footer {
+  height: auto;
+  background-color: #454545;
+  position: relative;
+  padding-top: 10px;
+  text-align: center;
+  color: #8F8F8F;
+  font-size: 90%;
+  right: 0;
+  left: 0;
+}
+
+
+.push-to-bottom {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0;
+  }
+
+@media screen and (min-width: 768px), screen and (min-height: 650px){
+  .push-to-bottom-large-screen {
+      position: fixed;
+      bottom: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+.footer > a { color: #99031C; !important }
+.footer > a:hover, .footer > a:active { color: #A8031F; !important }
+
+.image-circle { border-radius: 50%; }
+
+.centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-margin {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.citation-text {
+  color: #606060;
+}
+
+.row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.prevent-anchor-navbar-overlap {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+
+.dark-background {
+  background-color: #520000;
+  color: white;
+}
+
+@media(max-width:500px){
+
+}
+
+.btn {
+  border-radius: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+#scroll-down-indicator {
+  position: absolute;
+  bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
