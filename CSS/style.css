@@ -41,6 +41,14 @@ Résout le problème de boutons collés à gauche inhérents à bootstrap. */
 Résout le problème d'overlap de navbar inhérent à Bootstrap. */
 body {  margin-top: 50px; }
 
+a { color: #99031C; !important }
+a:hover, a:active { color: #A8031F; !important }
+a:visited {color: #520000}
+
+
+.footer a, .footer a:visited { color: #FF6A0D;}
+.footer a:hover, .footer a:active { color: #D94F0B; !important }
+
 /* Ajout d'une marge pour les boutons dans la nav à droite.
 Résout le problème de boutons collés à droite inhérents à bootstrap. */
 .navbar-right { margin-right: 6px; }
@@ -147,10 +155,6 @@ Résout le problème de boutons collés à droite inhérents à bootstrap. */
   }
 }
 
-
-.footer > a { color: #99031C; !important }
-.footer > a:hover, .footer > a:active { color: #A8031F; !important }
-
 .image-circle { border-radius: 50%; }
 
 .centered-image {
@@ -181,10 +185,6 @@ Résout le problème de boutons collés à droite inhérents à bootstrap. */
 .dark-background {
   background-color: #520000;
   color: white;
-}
-
-@media(max-width:500px){
-
 }
 
 .btn {
