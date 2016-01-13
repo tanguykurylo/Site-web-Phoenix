@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, .navbar, .parallax, .footer{
 }
 
 h1, h2, .navbar{
-text-transform: uppercase;
+  text-transform: uppercase;
 }
 h1, h2 {
   font-weight: bold;
@@ -85,18 +85,17 @@ Résout le problème de boutons collés à droite inhérents à bootstrap. */
 
   background-image: url("../images/photogrp-compressed.jpg");
   background-position: 50% 50px;
-
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
 
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
+  /* Text position */
   position: relative;
   padding-top: 25vh;
-
   text-align: center;
   text-transform: uppercase;
   color: #fff;
@@ -104,28 +103,29 @@ Résout le problème de boutons collés à droite inhérents à bootstrap. */
 }
 
 .parallax h1 {
-	font-size: 85px;
-	font-weight: bold;
-	margin-bottom: 10px;
+  font-size: 85px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .parallax p {
-	font-size: 24px;
-	font-weight: 400;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 @media(max-width:500px){
   .parallax h1 {
-  	font-size: 50px;
-  	font-weight: bold;
-  	margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
   }
 
   .parallax p {
-  	font-size: 20px;
-  	font-weight: 400;
+    font-size: 20px;
+    font-weight: 400;
   }
 }
+
 
 .footer {
   height: auto;
@@ -141,18 +141,18 @@ Résout le problème de boutons collés à droite inhérents à bootstrap. */
 
 
 .push-to-bottom {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px), screen and (min-height: 650px){
+  .push-to-bottom-large-screen {
     position: fixed;
     bottom: 0;
     margin-bottom: 0;
   }
-
-@media screen and (min-width: 768px), screen and (min-height: 650px){
-  .push-to-bottom-large-screen {
-      position: fixed;
-      bottom: 0;
-      margin-bottom: 0;
-    }
-  }
+}
 }
 
 .image-circle { border-radius: 50%; }
@@ -178,8 +178,8 @@ Résout le problème de boutons collés à droite inhérents à bootstrap. */
 }
 
 .prevent-anchor-navbar-overlap {
-    padding-top: 60px;
-    margin-top: -60px;
+  padding-top: 60px;
+  margin-top: -60px;
 }
 
 .dark-background {
@@ -204,4 +204,115 @@ Résout le problème de boutons collés à droite inhérents à bootstrap. */
   margin-right: auto;
   left: 0;
   right: 0;
+}
+
+::selection {
+  background: #BE0423; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #BE0423; /* Gecko Browsers */
+}
+
+.plane {
+  stroke-dasharray: 320;
+  stroke-dashoffset: 320;
+  animation: dash 2s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+/* PAGE MEMBRES */
+
+#titremembres{
+  margin-top:50px;
+  margin-bottom:50px;
+  padding:50px;
+}
+
+#poles{
+  text-align:center;
+  image-border:black;
+
+}
+
+#presidence{
+  background-color: #fdaeae;
+  /*padding:20px;*/
+}
+
+#bureau{
+  background-color: #a39d9d;
+  /*padding:20px;*/
+}
+
+#comweb{
+  background-color: #cbc8ff;
+  padding:20px;
+}
+
+#re{
+  background-color: #ffe6b5;
+  padding:20px;
+}
+
+#secuvoyage{
+  background-color: #acfeff;
+  padding:20px;
+}
+
+#soiree{
+  background-color: #d4d4d4;
+  padding:20px;
+}
+
+#pougnes{
+  background-color: #eaadad;
+  padding:20px;
+}
+
+#stand{
+  background-color: #f9bb9f;
+  padding:20px;
+}
+
+#polesseuls{
+  background-color: #d3d2d3;
+  padding:20px;
+}
+
+.titresorga{
+  font-weight:bold;
+  padding-top:10px;
+  font-family:Oswald;
+  font-size:xx-large;
+  text-color:#696969;
+}
+
+.textorga{
+  text-align:center;
+  /*margin-top:40px;*/
+  line-height: 60px;
+  /*letter-spacing: 0.15em;*/
+  margin-bottom:40px;
+}
+.namesorga{
+  padding-top:10px;
+  font-family:Oswald;
+  font-size:large;
+  color: white;
+  text-align:center;
+  image-border:
+}
+
+.respo{
+  text-decoration:underline;
+}
+
+.nomsorga{
+  background-color:#f54341;
 }
