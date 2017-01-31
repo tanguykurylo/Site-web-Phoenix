@@ -72,27 +72,10 @@ session_start();
                     </li>
                     <li> <a href="../pages/contact.php">Contact</a> </li>
                     <li>
-                        <?php
-                        if (isset($_SESSION['id']))
-                        {
-                            ?>
-                            <a href="" data-toggle="modal" data-target="#account-modal">
-                            <?php
-                        }
-                        else {
-                            ?>
-                            <a href="" data-toggle="modal" data-target="#login-modal">
-                            <?php
-                        }
-                        if (isset($_SESSION['nom']) AND isset($_SESSION['prenom']))
-                        {
-                            echo ($_SESSION['prenom'].' '.$_SESSION['nom']); //TODO name to upercase and person icon
-                        }
-                        else {
-                            echo 'Connexion' ;
-                        }
-                        ?>
-                    </a> </li>
+                      <a href="" data-toggle="modal" data-target="#login-modal">
+                        Connexion
+                      </a> 
+                    </li>
                 </ul>
             </div>
         </div>
