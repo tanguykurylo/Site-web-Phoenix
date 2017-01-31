@@ -1,0 +1,3 @@
+# ignore the real configuration files
+configuration/database.php
+configuration/captcha.php
