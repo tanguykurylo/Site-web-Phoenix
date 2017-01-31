@@ -109,8 +109,6 @@ session_start();
     </div>
 
     <div class="row vertical-center">
-
-
       <div class="col-xs-12 col-sm-offset-2 col-sm-4">
         <h3>Lipton Ice Tea</h3>
         <p>Partenaire du WEI 2016, Lipton Ice Tea est le leader sur le marché des thés glacés et offre des boissons gourmandes et rafraîchissantes. Venez découvrir les nouvelles saveurs Framboise et Tropical lors du WEI !<p>
@@ -122,7 +120,7 @@ session_start();
       <div class="col-sm-2"></div>
     </div>
 
-      <div class="row vertical-center">
+    <div class="row vertical-center">
       <div class="col-xs-12 col-sm-offset-2 col-sm-4 col-sm-push-4">
         <h3>Isilines</h3>
         <p>Isilines est une compagnie de transport qui vous propose des places de bus pour n'importe quelle destination en France à partir de... 1€ !<p>
@@ -134,7 +132,7 @@ session_start();
       <div class="col-sm-2"></div>
     </div>
 
-
+    <div class="row vertical-center">
       <div class="col-xs-12 col-sm-offset-2 col-sm-4">
         <h3>Auto-Ecole Clareva</h3>
         <p>Si vous souhaitez passer votre permis, l'auto-Ecole CER Clareva située à Evry près de Bras de Fer propose des prix avantageux pour les étudiants de TMSP. <br/>
@@ -204,7 +202,7 @@ session_start();
     </div>
 
 
-        <div class="row vertical-center">
+    <div class="row vertical-center">
       <div class="col-xs-12 col-sm-offset-2 col-sm-4">
         <h3>Party Fiesta d'Evry 2</h3>
         <p>Une soirée déguisée au programme ? <a href="http://www.partyfiesta.com/fr/" alt = "party fiesta">Party Fiesta</a> à Evry 2 est l'endroit où vous trouverez votre bonheur ! En plus, vous pouvez bénéficier de <em>10% de réduction </em> sur présentation de votre carte étudiant. </p>
@@ -219,8 +217,8 @@ session_start();
     <div class="row vertical-center">
       <div class="col-xs-12 col-sm-offset-2 col-sm-4 col-sm-push-4">
         <h3>Skyn</h3>
-        <p>Partenaire du WEI 2016, Skyn® et ses préservatifs en Polyisoprène vous procurent des sensations incroyablement naturelles et sensuelles.
-Ils vont donnent l'impression de ne rien porter, tant leur nouvelle matière les rend presque imperceptibles ! Et quoi de mieux que le WEI pour les essayer ? ;)<p>
+        <p>Partenaire du WEI 2016, Skyn® et ses préservatifs en Polyisoprène vous procurent des sensations incroyablement naturelles et sensuelles.</p>
+        <p>Ils vont donnent l'impression de ne rien porter, tant leur nouvelle matière les rend presque imperceptibles ! Et quoi de mieux que le WEI pour les essayer ?<p>
       </div>
       <div class="col-xs-12 col-sm-4 col-sm-pull-4">
         <img class="centered-image img-responsive" src="../images/partenaires/skyn.png">
