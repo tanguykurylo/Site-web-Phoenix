@@ -1,0 +1,54 @@
+/* PAGE MEMBRES */
+
+body{
+  text-align: center;
+}
+
+h1{
+  padding:50px;
+}
+
+h2{
+  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border: 0;
+  font-weight:bold;
+  text-transform: none;
+  padding-top:20px;
+  margin-top: 0px;
+  margin-bottom:0;
+}
+
+.grey-background{
+  background-color: #C2C3C3;
+}
+
+.extra-padding{
+  padding: 20px;
+  padding-top: 0px;
+}
+
+h3{
+  padding-top:5px;
+  padding-bottom: 5px;
+  margin: 0;
+  font-size:large;
+  font-variant: small-caps;
+  color: white;
+  background-color:#f54341;
+  border: 0;
+}
+.caption{
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 5px;
+}
+
+.respo{
+  text-decoration:underline;
+}
+
+.img-responsive{
+  max-height: 320px;
+}

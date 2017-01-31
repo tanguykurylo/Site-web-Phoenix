@@ -1,0 +1,4 @@
+AuthUserFile "/home/obrgpe2k/.htpasswds/public_html/petit-dejeuner/administration/passwd"
+AuthName "Dossier d'administration"
+AuthType Basic
+require valid-user

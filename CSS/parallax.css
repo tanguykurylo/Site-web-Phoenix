@@ -1,0 +1,51 @@
+/* Effet de scroll parallax */
+
+.parallax {
+  height: 100vh;
+  background-image: url("../images/couverture.jpg");
+  background-position: 50% 50px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  padding-top: 25vh;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: -50px;
+}
+
+@media (max-width: 320px) {
+  .parallax{
+      background-attachment: scroll;
+  }
+}
+
+.parallax h1 {
+  font-size: 85px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-shadow: 0 0 3px black;
+}
+
+.parallax p {
+  font-size: 24px;
+  font-weight: 400;
+  text-shadow: 0 0 3px black;
+}
+
+@media(max-width:500px){
+  .parallax h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .parallax p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
