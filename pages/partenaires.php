@@ -117,7 +117,7 @@ session_start();
         <a href="http://www.liptonicetea.com/">Découvrez toutes leurs saveurs</a>
       </div>
       <div class="col-xs-12 col-sm-4">
-        <img class="centered-image img-responsive" src="../images.ice-tea.jpg">
+        <img class="centered-image img-responsive" src="../images/partenaires/ice-tea.jpg">
       </div>
       <div class="col-sm-2"></div>
     </div>
