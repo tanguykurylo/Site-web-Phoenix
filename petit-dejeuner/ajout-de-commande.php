@@ -21,6 +21,6 @@ $req->closeCursor();
 </div>
 <p>Nous vous remercions d'avoir commandé votre petit déjeneur chez Phoenix!</p>
 
-<a href="../home.html">Retour à la page d'acceuil</a>
+<a href="../index.php">Retour à la page d'acceuil</a>
 <?php
 ?>
